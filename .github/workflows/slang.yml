@@ -28,7 +28,7 @@ jobs:
       fail-fast: false
       matrix:
         DUT: [axi_mesh, nw_mesh]
-        ROUTE_ALGO: [xy, src, id]
+        ROUTE_ALGO: [xy, yx, src, id]
     steps:
       - uses: actions/checkout@v7.0.0
 
